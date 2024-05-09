@@ -58,6 +58,12 @@ class Adventurer extends Character {
     }
   }
 
+  levelUp() {
+    this.level++;
+    console.log(`${this.Leo} leveled up to level ${this.level}!`);
+  }
+  
+
 
 
 
